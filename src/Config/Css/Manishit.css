@@ -1,0 +1,90 @@
+.ant-layout-sider-zero-width-trigger {
+	top: 12px;
+}
+
+.ant-layout-header {
+	background-color: #fff;
+	padding: 0px 0px 0px 20px !important;
+	height: 65px !important;
+}
+
+.ant-layout-sider-zero-width-trigger {
+	background-color: #fff;
+	color: #141414;
+}
+
+.ant-layout-sider {
+	background-color: #fff;
+}
+
+.ant-layout-has-sider {
+	height: inherit !important;
+}
+
+.ant-layout-sider-children {
+	height: 80%;
+}
+
+.ant-layout-footer {
+	background-color: #fff;
+}
+
+.ant-menu-submenu-selected {
+	color: #D93025 !important;
+}
+
+.ant-menu-item:hover,
+.ant-menu-item-active,
+.ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open,
+.ant-menu-submenu-active, 
+.ant-menu-submenu-title:hover {
+	color: #D93025 !important;
+}
+
+.ant-menu-item-selected {
+	color: #D93025 !important;
+}
+
+.ant-menu-vertical .ant-menu-item::after, 
+.ant-menu-vertical-left .ant-menu-item::after, 
+.ant-menu-vertical-right .ant-menu-item::after, 
+.ant-menu-inline .ant-menu-item::after {
+	border-right: 3px solid #D93025;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+	background-color: #FBE9E8;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover, 
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover, 
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active, 
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active, 
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open, 
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open, 
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected, 
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected {
+	color: #D93025 !important;
+	border-bottom: 3px solid #D93025;
+}
+
+.ant-menu-submenu-arrow {
+	color: #D93025 !important;
+}
+
+.ant-menu-submenu:hover > .ant-menu-submenu-title > .ant-menu-submenu-expand-icon, 
+.ant-menu-submenu:hover > .ant-menu-submenu-title > .ant-menu-submenu-arrow {
+	color: #D93025 !important;
+}
+
+.ant-card-head-title {
+	padding: 12px 0px;
+}
+
+/* .ant-menu-item:hover, 
+.ant-menu-item-active, 
+.ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open, 
+.ant-menu-submenu-active, 
+.ant-menu-submenu-title:hover{
+  background-color: #FBE9E8;
+} */
